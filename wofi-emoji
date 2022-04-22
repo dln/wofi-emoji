@@ -12,6 +12,7 @@ exit
 😂 face with tears of joy
 🙂 slightly smiling face
 🙃 upside-down face
+🫠 melting face
 😉 winking face
 😊 smiling face with smiling eyes
 😇 smiling face with halo
@@ -30,19 +31,25 @@ exit
 🤪 zany face
 😝 squinting face with tongue
 🤑 money-mouth face
-🤗 hugging face
+🤗 smiling face with open hands
 🤭 face with hand over mouth
+🫢 face with open eyes and hand over mouth
+🫣 face with peeking eye
 🤫 shushing face
 🤔 thinking face
+🫡 saluting face
 🤐 zipper-mouth face
 🤨 face with raised eyebrow
 😐 neutral face
 😑 expressionless face
 😶 face without mouth
+🫥 dotted line face
+😶‍🌫️ face in clouds
 😏 smirking face
 😒 unamused face
 🙄 face with rolling eyes
 😬 grimacing face
+😮‍💨 face exhaling
 🤥 lying face
 😌 relieved face
 😔 pensive face
@@ -58,7 +65,8 @@ exit
 🥵 hot face
 🥶 cold face
 🥴 woozy face
-😵 dizzy face
+😵 face with crossed-out eyes
+😵‍💫 face with spiral eyes
 🤯 exploding head
 🤠 cowboy hat face
 🥳 partying face
@@ -67,6 +75,7 @@ exit
 🤓 nerd face
 🧐 face with monocle
 😕 confused face
+🫤 face with diagonal mouth
 😟 worried face
 🙁 slightly frowning face
 ☹️ frowning face
@@ -75,6 +84,7 @@ exit
 😲 astonished face
 😳 flushed face
 🥺 pleading face
+🥹 face holding back tears
 😦 frowning face with open mouth
 😧 anguished face
 😨 fearful face
@@ -130,6 +140,8 @@ exit
 💟 heart decoration
 ❣️ heart exclamation
 💔 broken heart
+❤️‍🔥 heart on fire
+❤️‍🩹 mending heart
 ❤️ red heart
 🧡 orange heart
 💛 yellow heart
@@ -158,11 +170,16 @@ exit
 🖐️ hand with fingers splayed
 ✋ raised hand
 🖖 vulcan salute
+🫱 rightwards hand
+🫲 leftwards hand
+🫳 palm down hand
+🫴 palm up hand
 👌 OK hand
 🤌 pinched fingers
 🤏 pinching hand
 ✌️ victory hand
 🤞 crossed fingers
+🫰 hand with index finger and thumb crossed
 🤟 love-you gesture
 🤘 sign of the horns
 🤙 call me hand
@@ -172,6 +189,7 @@ exit
 🖕 middle finger
 👇 backhand index pointing down
 ☝️ index pointing up
+🫵 index pointing at the viewer
 👍 thumbs up
 👎 thumbs down
 ✊ raised fist
@@ -180,6 +198,7 @@ exit
 🤜 right-facing fist
 👏 clapping hands
 🙌 raising hands
+🫶 heart hands
 👐 open hands
 🤲 palms up together
 🤝 handshake
@@ -204,29 +223,32 @@ exit
 👁️ eye
 👅 tongue
 👄 mouth
+🫦 biting lip
 👶 baby
 🧒 child
 👦 boy
 👧 girl
 🧑 person
-👱 person: blond hair
+👱 person blond hair
 👨 man
-🧔 man: beard
-👨‍🦰 man: red hair
-👨‍🦱 man: curly hair
-👨‍🦳 man: white hair
-👨‍🦲 man: bald
+🧔 person beard
+🧔‍♂️ man beard
+🧔‍♀️ woman beard
+👨‍🦰 man red hair
+👨‍🦱 man curly hair
+👨‍🦳 man white hair
+👨‍🦲 man bald
 👩 woman
-👩‍🦰 woman: red hair
-🧑‍🦰 person: red hair
-👩‍🦱 woman: curly hair
-🧑‍🦱 person: curly hair
-👩‍🦳 woman: white hair
-🧑‍🦳 person: white hair
-👩‍🦲 woman: bald
-🧑‍🦲 person: bald
-👱‍♀️ woman: blond hair
-👱‍♂️ man: blond hair
+👩‍🦰 woman red hair
+🧑‍🦰 person red hair
+👩‍🦱 woman curly hair
+🧑‍🦱 person curly hair
+👩‍🦳 woman white hair
+🧑‍🦳 person white hair
+👩‍🦲 woman bald
+🧑‍🦲 person bald
+👱‍♀️ woman blond hair
+👱‍♂️ man blond hair
 🧓 older person
 👴 old man
 👵 old woman
@@ -321,6 +343,7 @@ exit
 👷 construction worker
 👷‍♂️ man construction worker
 👷‍♀️ woman construction worker
+🫅 person with crown
 🤴 prince
 👸 princess
 👳 person wearing turban
@@ -335,6 +358,8 @@ exit
 👰‍♂️ man with veil
 👰‍♀️ woman with veil
 🤰 pregnant woman
+🫃 pregnant man
+🫄 pregnant person
 🤱 breast-feeding
 👩‍🍼 woman feeding baby
 👨‍🍼 man feeding baby
@@ -370,6 +395,7 @@ exit
 🧟 zombie
 🧟‍♂️ man zombie
 🧟‍♀️ woman zombie
+🧌 troll
 💆 person getting massage
 💆‍♂️ man getting massage
 💆‍♀️ woman getting massage
@@ -462,39 +488,39 @@ exit
 👫 woman and man holding hands
 👬 men holding hands
 💏 kiss
-👩‍❤️‍💋‍👨 kiss: woman, man
-👨‍❤️‍💋‍👨 kiss: man, man
-👩‍❤️‍💋‍👩 kiss: woman, woman
+👩‍❤️‍💋‍👨 kiss woman, man
+👨‍❤️‍💋‍👨 kiss man, man
+👩‍❤️‍💋‍👩 kiss woman, woman
 💑 couple with heart
-👩‍❤️‍👨 couple with heart: woman, man
-👨‍❤️‍👨 couple with heart: man, man
-👩‍❤️‍👩 couple with heart: woman, woman
+👩‍❤️‍👨 couple with heart woman, man
+👨‍❤️‍👨 couple with heart man, man
+👩‍❤️‍👩 couple with heart woman, woman
 👪 family
-👨‍👩‍👦 family: man, woman, boy
-👨‍👩‍👧 family: man, woman, girl
-👨‍👩‍👧‍👦 family: man, woman, girl, boy
-👨‍👩‍👦‍👦 family: man, woman, boy, boy
-👨‍👩‍👧‍👧 family: man, woman, girl, girl
-👨‍👨‍👦 family: man, man, boy
-👨‍👨‍👧 family: man, man, girl
-👨‍👨‍👧‍👦 family: man, man, girl, boy
-👨‍👨‍👦‍👦 family: man, man, boy, boy
-👨‍👨‍👧‍👧 family: man, man, girl, girl
-👩‍👩‍👦 family: woman, woman, boy
-👩‍👩‍👧 family: woman, woman, girl
-👩‍👩‍👧‍👦 family: woman, woman, girl, boy
-👩‍👩‍👦‍👦 family: woman, woman, boy, boy
-👩‍👩‍👧‍👧 family: woman, woman, girl, girl
-👨‍👦 family: man, boy
-👨‍👦‍👦 family: man, boy, boy
-👨‍👧 family: man, girl
-👨‍👧‍👦 family: man, girl, boy
-👨‍👧‍👧 family: man, girl, girl
-👩‍👦 family: woman, boy
-👩‍👦‍👦 family: woman, boy, boy
-👩‍👧 family: woman, girl
-👩‍👧‍👦 family: woman, girl, boy
-👩‍👧‍👧 family: woman, girl, girl
+👨‍👩‍👦 family man, woman, boy
+👨‍👩‍👧 family man, woman, girl
+👨‍👩‍👧‍👦 family man, woman, girl, boy
+👨‍👩‍👦‍👦 family man, woman, boy, boy
+👨‍👩‍👧‍👧 family man, woman, girl, girl
+👨‍👨‍👦 family man, man, boy
+👨‍👨‍👧 family man, man, girl
+👨‍👨‍👧‍👦 family man, man, girl, boy
+👨‍👨‍👦‍👦 family man, man, boy, boy
+👨‍👨‍👧‍👧 family man, man, girl, girl
+👩‍👩‍👦 family woman, woman, boy
+👩‍👩‍👧 family woman, woman, girl
+👩‍👩‍👧‍👦 family woman, woman, girl, boy
+👩‍👩‍👦‍👦 family woman, woman, boy, boy
+👩‍👩‍👧‍👧 family woman, woman, girl, girl
+👨‍👦 family man, boy
+👨‍👦‍👦 family man, boy, boy
+👨‍👧 family man, girl
+👨‍👧‍👦 family man, girl, boy
+👨‍👧‍👧 family man, girl, girl
+👩‍👦 family woman, boy
+👩‍👦‍👦 family woman, boy, boy
+👩‍👧 family woman, girl
+👩‍👧‍👦 family woman, girl, boy
+👩‍👧‍👧 family woman, girl, girl
 🗣️ speaking head
 👤 bust in silhouette
 👥 busts in silhouette
@@ -601,6 +627,7 @@ exit
 🦈 shark
 🐙 octopus
 🐚 spiral shell
+🪸 coral
 🐌 snail
 🦋 butterfly
 🐛 bug
@@ -620,6 +647,7 @@ exit
 💐 bouquet
 🌸 cherry blossom
 💮 white flower
+🪷 lotus
 🏵️ rosette
 🌹 rose
 🥀 wilted flower
@@ -640,6 +668,8 @@ exit
 🍁 maple leaf
 🍂 fallen leaf
 🍃 leaf fluttering in wind
+🪹 empty nest
+🪺 nest with eggs
 🍇 grapes
 🍈 melon
 🍉 watermelon
@@ -673,6 +703,7 @@ exit
 🧅 onion
 🍄 mushroom
 🥜 peanuts
+🫘 beans
 🌰 chestnut
 🍞 bread
 🥐 croissant
@@ -758,6 +789,7 @@ exit
 🍻 clinking beer mugs
 🥂 clinking glasses
 🥃 tumbler glass
+🫗 pouring liquid
 🥤 cup with straw
 🧋 bubble tea
 🧃 beverage box
@@ -768,6 +800,7 @@ exit
 🍴 fork and knife
 🥄 spoon
 🔪 kitchen knife
+🫙 jar
 🏺 amphora
 🌍 globe showing Europe-Africa
 🌎 globe showing Americas
@@ -830,6 +863,7 @@ exit
 🌉 bridge at night
 ♨️ hot springs
 🎠 carousel horse
+🛝 playground slide
 🎡 ferris wheel
 🎢 roller coaster
 💈 barber pole
@@ -878,12 +912,14 @@ exit
 🛤️ railway track
 🛢️ oil drum
 ⛽ fuel pump
+🛞 wheel
 🚨 police car light
 🚥 horizontal traffic light
 🚦 vertical traffic light
 🛑 stop sign
 🚧 construction
 ⚓ anchor
+🛟 ring buoy
 ⛵ sailboat
 🛶 canoe
 🚤 speedboat
@@ -1038,13 +1074,14 @@ exit
 🎿 skis
 🛷 sled
 🥌 curling stone
-🎯 direct hit
+🎯 bullseye
 🪀 yo-yo
 🪁 kite
 🎱 pool 8 ball
 🔮 crystal ball
 🪄 magic wand
 🧿 nazar amulet
+🪬 hamsa
 🎮 video game
 🕹️ joystick
 🎰 slot machine
@@ -1052,6 +1089,7 @@ exit
 🧩 puzzle piece
 🧸 teddy bear
 🪅 piñata
+🪩 mirror ball
 🪆 nesting dolls
 ♠️ spade suit
 ♥️ heart suit
@@ -1147,6 +1185,7 @@ exit
 📟 pager
 📠 fax machine
 🔋 battery
+🪫 low battery
 🔌 electric plug
 💻 laptop
 🖥️ desktop computer
@@ -1258,7 +1297,7 @@ exit
 🛠️ hammer and wrench
 🗡️ dagger
 ⚔️ crossed swords
-🔫 pistol
+🔫 water pistol
 🪃 boomerang
 🏹 bow and arrow
 🛡️ shield
@@ -1287,7 +1326,9 @@ exit
 🩸 drop of blood
 💊 pill
 🩹 adhesive bandage
+🩼 crutch
 🩺 stethoscope
+🩻 x-ray
 🚪 door
 🛗 elevator
 🪞 mirror
@@ -1308,6 +1349,7 @@ exit
 🧻 roll of paper
 🪣 bucket
 🧼 soap
+🫧 bubbles
 🪥 toothbrush
 🧽 sponge
 🧯 fire extinguisher
@@ -1318,6 +1360,7 @@ exit
 ⚱️ funeral urn
 🗿 moai
 🪧 placard
+🪪 identification card
 🏧 ATM sign
 🚮 litter in bin sign
 🚰 potable water
@@ -1421,13 +1464,14 @@ exit
 ➕ plus
 ➖ minus
 ➗ divide
+🟰 heavy equals sign
 ♾️ infinity
 ‼️ double exclamation mark
 ⁉️ exclamation question mark
-❓ question mark
+❓ red question mark
 ❔ white question mark
 ❕ white exclamation mark
-❗ exclamation mark
+❗ red exclamation mark
 〰️ wavy dash
 💱 currency exchange
 💲 heavy dollar sign
@@ -1452,19 +1496,19 @@ exit
 ©️ copyright
 ®️ registered
 ™️ trade mark
-#️⃣ keycap: #
-*️⃣ keycap: *
-0️⃣ keycap: 0
-1️⃣ keycap: 1
-2️⃣ keycap: 2
-3️⃣ keycap: 3
-4️⃣ keycap: 4
-5️⃣ keycap: 5
-6️⃣ keycap: 6
-7️⃣ keycap: 7
-8️⃣ keycap: 8
-9️⃣ keycap: 9
-🔟 keycap: 10
+#️⃣ keycap #
+*️⃣ keycap *
+0️⃣ keycap 0
+1️⃣ keycap 1
+2️⃣ keycap 2
+3️⃣ keycap 3
+4️⃣ keycap 4
+5️⃣ keycap 5
+6️⃣ keycap 6
+7️⃣ keycap 7
+8️⃣ keycap 8
+9️⃣ keycap 9
+🔟 keycap 10
 🔠 input latin uppercase
 🔡 input latin lowercase
 🔢 input numbers
@@ -1546,265 +1590,264 @@ exit
 🏳️‍🌈 rainbow flag
 🏳️‍⚧️ transgender flag
 🏴‍☠️ pirate flag
-🇦🇨 flag: Ascension Island
-🇦🇩 flag: Andorra
-🇦🇪 flag: United Arab Emirates
-🇦🇫 flag: Afghanistan
-🇦🇬 flag: Antigua & Barbuda
-🇦🇮 flag: Anguilla
-🇦🇱 flag: Albania
-🇦🇲 flag: Armenia
-🇦🇴 flag: Angola
-🇦🇶 flag: Antarctica
-🇦🇷 flag: Argentina
-🇦🇸 flag: American Samoa
-🇦🇹 flag: Austria
-🇦🇺 flag: Australia
-🇦🇼 flag: Aruba
-🇦🇽 flag: Åland Islands
-🇦🇿 flag: Azerbaijan
-🇧🇦 flag: Bosnia & Herzegovina
-🇧🇧 flag: Barbados
-🇧🇩 flag: Bangladesh
-🇧🇪 flag: Belgium
-🇧🇫 flag: Burkina Faso
-🇧🇬 flag: Bulgaria
-🇧🇭 flag: Bahrain
-🇧🇮 flag: Burundi
-🇧🇯 flag: Benin
-🇧🇱 flag: St. Barthélemy
-🇧🇲 flag: Bermuda
-🇧🇳 flag: Brunei
-🇧🇴 flag: Bolivia
-🇧🇶 flag: Caribbean Netherlands
-🇧🇷 flag: Brazil
-🇧🇸 flag: Bahamas
-🇧🇹 flag: Bhutan
-🇧🇻 flag: Bouvet Island
-🇧🇼 flag: Botswana
-🇧🇾 flag: Belarus
-🇧🇿 flag: Belize
-🇨🇦 flag: Canada
-🇨🇨 flag: Cocos (Keeling) Islands
-🇨🇩 flag: Congo - Kinshasa
-🇨🇫 flag: Central African Republic
-🇨🇬 flag: Congo - Brazzaville
-🇨🇭 flag: Switzerland
-🇨🇮 flag: Côte d’Ivoire
-🇨🇰 flag: Cook Islands
-🇨🇱 flag: Chile
-🇨🇲 flag: Cameroon
-🇨🇳 flag: China
-🇨🇴 flag: Colombia
-🇨🇵 flag: Clipperton Island
-🇨🇷 flag: Costa Rica
-🇨🇺 flag: Cuba
-🇨🇻 flag: Cape Verde
-🇨🇼 flag: Curaçao
-🇨🇽 flag: Christmas Island
-🇨🇾 flag: Cyprus
-🇨🇿 flag: Czechia
-🇩🇪 flag: Germany
-🇩🇬 flag: Diego Garcia
-🇩🇯 flag: Djibouti
-🇩🇰 flag: Denmark
-🇩🇲 flag: Dominica
-🇩🇴 flag: Dominican Republic
-🇩🇿 flag: Algeria
-🇪🇦 flag: Ceuta & Melilla
-🇪🇨 flag: Ecuador
-🇪🇪 flag: Estonia
-🇪🇬 flag: Egypt
-🇪🇭 flag: Western Sahara
-🇪🇷 flag: Eritrea
-🇪🇸 flag: Spain
-🇪🇹 flag: Ethiopia
-🇪🇺 flag: European Union
-🇫🇮 flag: Finland
-🇫🇯 flag: Fiji
-🇫🇰 flag: Falkland Islands
-🇫🇲 flag: Micronesia
-🇫🇴 flag: Faroe Islands
-🇫🇷 flag: France
-🇬🇦 flag: Gabon
-🇬🇧 flag: United Kingdom
-🇬🇩 flag: Grenada
-🇬🇪 flag: Georgia
-🇬🇫 flag: French Guiana
-🇬🇬 flag: Guernsey
-🇬🇭 flag: Ghana
-🇬🇮 flag: Gibraltar
-🇬🇱 flag: Greenland
-🇬🇲 flag: Gambia
-🇬🇳 flag: Guinea
-🇬🇵 flag: Guadeloupe
-🇬🇶 flag: Equatorial Guinea
-🇬🇷 flag: Greece
-🇬🇸 flag: South Georgia & South Sandwich Islands
-🇬🇹 flag: Guatemala
-🇬🇺 flag: Guam
-🇬🇼 flag: Guinea-Bissau
-🇬🇾 flag: Guyana
-🇭🇰 flag: Hong Kong SAR China
-🇭🇲 flag: Heard & McDonald Islands
-🇭🇳 flag: Honduras
-🇭🇷 flag: Croatia
-🇭🇹 flag: Haiti
-🇭🇺 flag: Hungary
-🇮🇨 flag: Canary Islands
-🇮🇩 flag: Indonesia
-🇮🇪 flag: Ireland
-🇮🇱 flag: Israel
-🇮🇲 flag: Isle of Man
-🇮🇳 flag: India
-🇮🇴 flag: British Indian Ocean Territory
-🇮🇶 flag: Iraq
-🇮🇷 flag: Iran
-🇮🇸 flag: Iceland
-🇮🇹 flag: Italy
-🇯🇪 flag: Jersey
-🇯🇲 flag: Jamaica
-🇯🇴 flag: Jordan
-🇯🇵 flag: Japan
-🇰🇪 flag: Kenya
-🇰🇬 flag: Kyrgyzstan
-🇰🇭 flag: Cambodia
-🇰🇮 flag: Kiribati
-🇰🇲 flag: Comoros
-🇰🇳 flag: St. Kitts & Nevis
-🇰🇵 flag: North Korea
-🇰🇷 flag: South Korea
-🇰🇼 flag: Kuwait
-🇰🇾 flag: Cayman Islands
-🇰🇿 flag: Kazakhstan
-🇱🇦 flag: Laos
-🇱🇧 flag: Lebanon
-🇱🇨 flag: St. Lucia
-🇱🇮 flag: Liechtenstein
-🇱🇰 flag: Sri Lanka
-🇱🇷 flag: Liberia
-🇱🇸 flag: Lesotho
-🇱🇹 flag: Lithuania
-🇱🇺 flag: Luxembourg
-🇱🇻 flag: Latvia
-🇱🇾 flag: Libya
-🇲🇦 flag: Morocco
-🇲🇨 flag: Monaco
-🇲🇩 flag: Moldova
-🇲🇪 flag: Montenegro
-🇲🇫 flag: St. Martin
-🇲🇬 flag: Madagascar
-🇲🇭 flag: Marshall Islands
-🇲🇰 flag: North Macedonia
-🇲🇱 flag: Mali
-🇲🇲 flag: Myanmar (Burma)
-🇲🇳 flag: Mongolia
-🇲🇴 flag: Macao SAR China
-🇲🇵 flag: Northern Mariana Islands
-🇲🇶 flag: Martinique
-🇲🇷 flag: Mauritania
-🇲🇸 flag: Montserrat
-🇲🇹 flag: Malta
-🇲🇺 flag: Mauritius
-🇲🇻 flag: Maldives
-🇲🇼 flag: Malawi
-🇲🇽 flag: Mexico
-🇲🇾 flag: Malaysia
-🇲🇿 flag: Mozambique
-🇳🇦 flag: Namibia
-🇳🇨 flag: New Caledonia
-🇳🇪 flag: Niger
-🇳🇫 flag: Norfolk Island
-🇳🇬 flag: Nigeria
-🇳🇮 flag: Nicaragua
-🇳🇱 flag: Netherlands
-🇳🇴 flag: Norway
-🇳🇵 flag: Nepal
-🇳🇷 flag: Nauru
-🇳🇺 flag: Niue
-🇳🇿 flag: New Zealand
-🇴🇲 flag: Oman
-🇵🇦 flag: Panama
-🇵🇪 flag: Peru
-🇵🇫 flag: French Polynesia
-🇵🇬 flag: Papua New Guinea
-🇵🇭 flag: Philippines
-🇵🇰 flag: Pakistan
-🇵🇱 flag: Poland
-🇵🇲 flag: St. Pierre & Miquelon
-🇵🇳 flag: Pitcairn Islands
-🇵🇷 flag: Puerto Rico
-🇵🇸 flag: Palestinian Territories
-🇵🇹 flag: Portugal
-🇵🇼 flag: Palau
-🇵🇾 flag: Paraguay
-🇶🇦 flag: Qatar
-🇷🇪 flag: Réunion
-🇷🇴 flag: Romania
-🇷🇸 flag: Serbia
-🇷🇺 flag: Russia
-🇷🇼 flag: Rwanda
-🇸🇦 flag: Saudi Arabia
-🇸🇧 flag: Solomon Islands
-🇸🇨 flag: Seychelles
-🇸🇩 flag: Sudan
-🇸🇪 flag: Sweden
-🇸🇬 flag: Singapore
-🇸🇭 flag: St. Helena
-🇸🇮 flag: Slovenia
-🇸🇯 flag: Svalbard & Jan Mayen
-🇸🇰 flag: Slovakia
-🇸🇱 flag: Sierra Leone
-🇸🇲 flag: San Marino
-🇸🇳 flag: Senegal
-🇸🇴 flag: Somalia
-🇸🇷 flag: Suriname
-🇸🇸 flag: South Sudan
-🇸🇹 flag: São Tomé & Príncipe
-🇸🇻 flag: El Salvador
-🇸🇽 flag: Sint Maarten
-🇸🇾 flag: Syria
-🇸🇿 flag: Eswatini
-🇹🇦 flag: Tristan da Cunha
-🇹🇨 flag: Turks & Caicos Islands
-🇹🇩 flag: Chad
-🇹🇫 flag: French Southern Territories
-🇹🇬 flag: Togo
-🇹🇭 flag: Thailand
-🇹🇯 flag: Tajikistan
-🇹🇰 flag: Tokelau
-🇹🇱 flag: Timor-Leste
-🇹🇲 flag: Turkmenistan
-🇹🇳 flag: Tunisia
-🇹🇴 flag: Tonga
-🇹🇷 flag: Turkey
-🇹🇹 flag: Trinidad & Tobago
-🇹🇻 flag: Tuvalu
-🇹🇼 flag: Taiwan
-🇹🇿 flag: Tanzania
-🇺🇦 flag: Ukraine
-🇺🇬 flag: Uganda
-🇺🇲 flag: U.S. Outlying Islands
-🇺🇳 flag: United Nations
-🇺🇸 flag: United States
-🇺🇾 flag: Uruguay
-🇺🇿 flag: Uzbekistan
-🇻🇦 flag: Vatican City
-🇻🇨 flag: St. Vincent & Grenadines
-🇻🇪 flag: Venezuela
-🇻🇬 flag: British Virgin Islands
-🇻🇮 flag: U.S. Virgin Islands
-🇻🇳 flag: Vietnam
-🇻🇺 flag: Vanuatu
-🇼🇫 flag: Wallis & Futuna
-🇼🇸 flag: Samoa
-🇽🇰 flag: Kosovo
-🇾🇪 flag: Yemen
-🇾🇹 flag: Mayotte
-🇿🇦 flag: South Africa
-🇿🇲 flag: Zambia
-🇿🇼 flag: Zimbabwe
-🏴󠁧󠁢󠁥󠁮󠁧󠁿 flag: England
-🏴󠁧󠁢󠁳󠁣󠁴󠁿 flag: Scotland
-🏴󠁧󠁢󠁷󠁬󠁳󠁿 flag: Wales
-
+🇦🇨 flag Ascension Island
+🇦🇩 flag Andorra
+🇦🇪 flag United Arab Emirates
+🇦🇫 flag Afghanistan
+🇦🇬 flag Antigua & Barbuda
+🇦🇮 flag Anguilla
+🇦🇱 flag Albania
+🇦🇲 flag Armenia
+🇦🇴 flag Angola
+🇦🇶 flag Antarctica
+🇦🇷 flag Argentina
+🇦🇸 flag American Samoa
+🇦🇹 flag Austria
+🇦🇺 flag Australia
+🇦🇼 flag Aruba
+🇦🇽 flag Åland Islands
+🇦🇿 flag Azerbaijan
+🇧🇦 flag Bosnia & Herzegovina
+🇧🇧 flag Barbados
+🇧🇩 flag Bangladesh
+🇧🇪 flag Belgium
+🇧🇫 flag Burkina Faso
+🇧🇬 flag Bulgaria
+🇧🇭 flag Bahrain
+🇧🇮 flag Burundi
+🇧🇯 flag Benin
+🇧🇱 flag St. Barthélemy
+🇧🇲 flag Bermuda
+🇧🇳 flag Brunei
+🇧🇴 flag Bolivia
+🇧🇶 flag Caribbean Netherlands
+🇧🇷 flag Brazil
+🇧🇸 flag Bahamas
+🇧🇹 flag Bhutan
+🇧🇻 flag Bouvet Island
+🇧🇼 flag Botswana
+🇧🇾 flag Belarus
+🇧🇿 flag Belize
+🇨🇦 flag Canada
+🇨🇨 flag Cocos (Keeling) Islands
+🇨🇩 flag Congo - Kinshasa
+🇨🇫 flag Central African Republic
+🇨🇬 flag Congo - Brazzaville
+🇨🇭 flag Switzerland
+🇨🇮 flag Côte d’Ivoire
+🇨🇰 flag Cook Islands
+🇨🇱 flag Chile
+🇨🇲 flag Cameroon
+🇨🇳 flag China
+🇨🇴 flag Colombia
+🇨🇵 flag Clipperton Island
+🇨🇷 flag Costa Rica
+🇨🇺 flag Cuba
+🇨🇻 flag Cape Verde
+🇨🇼 flag Curaçao
+🇨🇽 flag Christmas Island
+🇨🇾 flag Cyprus
+🇨🇿 flag Czechia
+🇩🇪 flag Germany
+🇩🇬 flag Diego Garcia
+🇩🇯 flag Djibouti
+🇩🇰 flag Denmark
+🇩🇲 flag Dominica
+🇩🇴 flag Dominican Republic
+🇩🇿 flag Algeria
+🇪🇦 flag Ceuta & Melilla
+🇪🇨 flag Ecuador
+🇪🇪 flag Estonia
+🇪🇬 flag Egypt
+🇪🇭 flag Western Sahara
+🇪🇷 flag Eritrea
+🇪🇸 flag Spain
+🇪🇹 flag Ethiopia
+🇪🇺 flag European Union
+🇫🇮 flag Finland
+🇫🇯 flag Fiji
+🇫🇰 flag Falkland Islands
+🇫🇲 flag Micronesia
+🇫🇴 flag Faroe Islands
+🇫🇷 flag France
+🇬🇦 flag Gabon
+🇬🇧 flag United Kingdom
+🇬🇩 flag Grenada
+🇬🇪 flag Georgia
+🇬🇫 flag French Guiana
+🇬🇬 flag Guernsey
+🇬🇭 flag Ghana
+🇬🇮 flag Gibraltar
+🇬🇱 flag Greenland
+🇬🇲 flag Gambia
+🇬🇳 flag Guinea
+🇬🇵 flag Guadeloupe
+🇬🇶 flag Equatorial Guinea
+🇬🇷 flag Greece
+🇬🇸 flag South Georgia & South Sandwich Islands
+🇬🇹 flag Guatemala
+🇬🇺 flag Guam
+🇬🇼 flag Guinea-Bissau
+🇬🇾 flag Guyana
+🇭🇰 flag Hong Kong SAR China
+🇭🇲 flag Heard & McDonald Islands
+🇭🇳 flag Honduras
+🇭🇷 flag Croatia
+🇭🇹 flag Haiti
+🇭🇺 flag Hungary
+🇮🇨 flag Canary Islands
+🇮🇩 flag Indonesia
+🇮🇪 flag Ireland
+🇮🇱 flag Israel
+🇮🇲 flag Isle of Man
+🇮🇳 flag India
+🇮🇴 flag British Indian Ocean Territory
+🇮🇶 flag Iraq
+🇮🇷 flag Iran
+🇮🇸 flag Iceland
+🇮🇹 flag Italy
+🇯🇪 flag Jersey
+🇯🇲 flag Jamaica
+🇯🇴 flag Jordan
+🇯🇵 flag Japan
+🇰🇪 flag Kenya
+🇰🇬 flag Kyrgyzstan
+🇰🇭 flag Cambodia
+🇰🇮 flag Kiribati
+🇰🇲 flag Comoros
+🇰🇳 flag St. Kitts & Nevis
+🇰🇵 flag North Korea
+🇰🇷 flag South Korea
+🇰🇼 flag Kuwait
+🇰🇾 flag Cayman Islands
+🇰🇿 flag Kazakhstan
+🇱🇦 flag Laos
+🇱🇧 flag Lebanon
+🇱🇨 flag St. Lucia
+🇱🇮 flag Liechtenstein
+🇱🇰 flag Sri Lanka
+🇱🇷 flag Liberia
+🇱🇸 flag Lesotho
+🇱🇹 flag Lithuania
+🇱🇺 flag Luxembourg
+🇱🇻 flag Latvia
+🇱🇾 flag Libya
+🇲🇦 flag Morocco
+🇲🇨 flag Monaco
+🇲🇩 flag Moldova
+🇲🇪 flag Montenegro
+🇲🇫 flag St. Martin
+🇲🇬 flag Madagascar
+🇲🇭 flag Marshall Islands
+🇲🇰 flag North Macedonia
+🇲🇱 flag Mali
+🇲🇲 flag Myanmar (Burma)
+🇲🇳 flag Mongolia
+🇲🇴 flag Macao SAR China
+🇲🇵 flag Northern Mariana Islands
+🇲🇶 flag Martinique
+🇲🇷 flag Mauritania
+🇲🇸 flag Montserrat
+🇲🇹 flag Malta
+🇲🇺 flag Mauritius
+🇲🇻 flag Maldives
+🇲🇼 flag Malawi
+🇲🇽 flag Mexico
+🇲🇾 flag Malaysia
+🇲🇿 flag Mozambique
+🇳🇦 flag Namibia
+🇳🇨 flag New Caledonia
+🇳🇪 flag Niger
+🇳🇫 flag Norfolk Island
+🇳🇬 flag Nigeria
+🇳🇮 flag Nicaragua
+🇳🇱 flag Netherlands
+🇳🇴 flag Norway
+🇳🇵 flag Nepal
+🇳🇷 flag Nauru
+🇳🇺 flag Niue
+🇳🇿 flag New Zealand
+🇴🇲 flag Oman
+🇵🇦 flag Panama
+🇵🇪 flag Peru
+🇵🇫 flag French Polynesia
+🇵🇬 flag Papua New Guinea
+🇵🇭 flag Philippines
+🇵🇰 flag Pakistan
+🇵🇱 flag Poland
+🇵🇲 flag St. Pierre & Miquelon
+🇵🇳 flag Pitcairn Islands
+🇵🇷 flag Puerto Rico
+🇵🇸 flag Palestinian Territories
+🇵🇹 flag Portugal
+🇵🇼 flag Palau
+🇵🇾 flag Paraguay
+🇶🇦 flag Qatar
+🇷🇪 flag Réunion
+🇷🇴 flag Romania
+🇷🇸 flag Serbia
+🇷🇺 flag Russia
+🇷🇼 flag Rwanda
+🇸🇦 flag Saudi Arabia
+🇸🇧 flag Solomon Islands
+🇸🇨 flag Seychelles
+🇸🇩 flag Sudan
+🇸🇪 flag Sweden
+🇸🇬 flag Singapore
+🇸🇭 flag St. Helena
+🇸🇮 flag Slovenia
+🇸🇯 flag Svalbard & Jan Mayen
+🇸🇰 flag Slovakia
+🇸🇱 flag Sierra Leone
+🇸🇲 flag San Marino
+🇸🇳 flag Senegal
+🇸🇴 flag Somalia
+🇸🇷 flag Suriname
+🇸🇸 flag South Sudan
+🇸🇹 flag São Tomé & Príncipe
+🇸🇻 flag El Salvador
+🇸🇽 flag Sint Maarten
+🇸🇾 flag Syria
+🇸🇿 flag Eswatini
+🇹🇦 flag Tristan da Cunha
+🇹🇨 flag Turks & Caicos Islands
+🇹🇩 flag Chad
+🇹🇫 flag French Southern Territories
+🇹🇬 flag Togo
+🇹🇭 flag Thailand
+🇹🇯 flag Tajikistan
+🇹🇰 flag Tokelau
+🇹🇱 flag Timor-Leste
+🇹🇲 flag Turkmenistan
+🇹🇳 flag Tunisia
+🇹🇴 flag Tonga
+🇹🇷 flag Turkey
+🇹🇹 flag Trinidad & Tobago
+🇹🇻 flag Tuvalu
+🇹🇼 flag Taiwan
+🇹🇿 flag Tanzania
+🇺🇦 flag Ukraine
+🇺🇬 flag Uganda
+🇺🇲 flag U.S. Outlying Islands
+🇺🇳 flag United Nations
+🇺🇸 flag United States
+🇺🇾 flag Uruguay
+🇺🇿 flag Uzbekistan
+🇻🇦 flag Vatican City
+🇻🇨 flag St. Vincent & Grenadines
+🇻🇪 flag Venezuela
+🇻🇬 flag British Virgin Islands
+🇻🇮 flag U.S. Virgin Islands
+🇻🇳 flag Vietnam
+🇻🇺 flag Vanuatu
+🇼🇫 flag Wallis & Futuna
+🇼🇸 flag Samoa
+🇽🇰 flag Kosovo
+🇾🇪 flag Yemen
+🇾🇹 flag Mayotte
+🇿🇦 flag South Africa
+🇿🇲 flag Zambia
+🇿🇼 flag Zimbabwe
+🏴󠁧󠁢󠁥󠁮󠁧󠁿 flag England
+🏴󠁧󠁢󠁳󠁣󠁴󠁿 flag Scotland
+🏴󠁧󠁢󠁷󠁬󠁳󠁿 flag Wales
