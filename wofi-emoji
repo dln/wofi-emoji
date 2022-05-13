@@ -1,5 +1,5 @@
 #!/bin/bash
-sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | wl-copy
+sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | wtype -
 exit
 ### DATA ###
 😀 grinning_face face smile happy joy :D grin
