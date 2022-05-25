@@ -1,6 +1,8 @@
 # wofi-emoji 🥞
 
-Simple emoji selector for Wayland using [wofi](https://cloudninja.pw/docs/wofi.html) and [wtype](https://github.com/atx/wtype).
+Simple emoji selector for Wayland using [wofi](https://cloudninja.pw/docs/wofi.html).
+It relies on [wtype](https://github.com/atx/wtype) when it's supported, otherwise,
+[wl-clipboard](https://github.com/bugaevc/wl-clipboard) is used instead.
 
 ![Screenshot of wofi-emoji in action](https://i.imgur.com/8XiUoh6.png)
 
