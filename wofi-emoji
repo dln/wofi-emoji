@@ -1,11 +1,25 @@
-#!/bin/bash
-wtype 0
-if [ $? -eq 0 ]
-then
-    sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | wtype -
-else
-    sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | wl-copy
+#!/bin/sh
+alias exists='command -v >/dev/null 2>/dev/null'
+for exe in sed wofi cut tr; do
+  if ! exists $exe; then
+    echo >&2 $exe not found
+    echo >&2 Please install $exe and try again
+    exit 127
+  fi
+done
+
+final=
+exists wtype && final='wtype -'
+exists wl-copy && final=wl-copy
+if [ -z "$final" ]; then
+  echo >&2 wtype not found
+  echo >&2 wl-copy not found
+  echo >&2 $(basename "$0") needs either wtype or wl-copy
+  echo >&2 please install either and try again
+  exit 127
 fi
+
+sed '1,/^### DATA ###$/d' "$0" | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | $final
 exit
 ### DATA ###
 😀 grinning face face smile happy joy :D grin
