@@ -8,18 +8,41 @@ for exe in sed wofi cut tr; do
   fi
 done
 
+wofiopts='-di -p emoji'
+exe="$(basename "$0")"
+
+help() {
+  cat << EOF
+Usage: $exe [options]
+
+  -h	Print this help
+  -s	Output the selected emoji to stdout
+  -f	Enable fuzzy-matching
+
+EOF
+}
+
 final=
-exists wtype && final='wtype -'
-exists wl-copy && final=wl-copy
+while getopts :hsf opt; do
+  case $opt in
+    (h) help; exit;;
+    (s) final=cat;;
+    (f) wofiopts="$wofiopts -M fuzzy";;
+    \?) echo >&2 $exe: Illegal option -$OPTARG;
+        help >&2; exit 1;;
+  esac
+done
+
+[ -z "$final" ] && exists wtype && final='wtype -'
+[ -z "$final" ] && exists wl-copy && final=wl-copy
 if [ -z "$final" ]; then
-  echo >&2 wtype not found
-  echo >&2 wl-copy not found
-  echo >&2 $(basename "$0") needs either wtype or wl-copy
+  echo >&2 wtype and wl-copy not found
+  echo >&2 $exe needs either wtype or wl-copy
   echo >&2 please install either and try again
   exit 127
 fi
 
-sed '1,/^### DATA ###$/d' "$0" | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | $final
+sed '1,/^### DATA ###$/d' "$0" | wofi $wofiopts | cut -d ' ' -f 1 | tr -d '\n' | $final
 exit
 ### DATA ###
 😀 grinning face face smile happy joy :D grin
