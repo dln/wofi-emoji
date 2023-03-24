@@ -20,12 +20,19 @@ Add a shortcut key in your [sway](https://swaywm.org/) config:
 ```bash
 # ~/.config/sway/config
 bindsym Mod4+e exec path/to/wofi-emoji
-````
+```
+
 ## Hyprland Usage
+
 Download wofi-emoji using AUR or github.
 
 Add a shortcut key in your [hyperland]() config:
+
 ```bash
 # ~/.config/hypr/hyprland.conf
+#for manual loacating the script
 bind = $mainMod, PERIOD, exec, ~/.config/wofi-emoji/wofi-emoji
+
+#for installed binary
+bind = $mainMod, PERIOD, exec, wofi-emoji
 ```
