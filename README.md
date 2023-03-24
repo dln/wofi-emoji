@@ -33,3 +33,7 @@ Add a shortcut key in your [hyperland]() config:
 # ~/.config/hypr/hyprland.conf
 bind = $mainMod, PERIOD, exec, ~/.config/wofi-emoji/wofi-emoji
 ````
+
+```
+
+```
