@@ -1,11 +1,48 @@
-#!/bin/bash
-wtype 0
-if [ $? -eq 0 ]
-then
-    sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | wtype -
-else
-    sed '1,/^### DATA ###$/d' $0 | wofi --show dmenu -i | cut -d ' ' -f 1 | tr -d '\n' | wl-copy
+#!/bin/sh
+alias exists='command -v >/dev/null 2>/dev/null'
+for exe in sed wofi cut tr; do
+  if ! exists $exe; then
+    echo >&2 $exe not found
+    echo >&2 Please install $exe and try again
+    exit 127
+  fi
+done
+
+wofiopts='-di -p emoji'
+exe="$(basename "$0")"
+
+help() {
+  cat << EOF
+Usage: $exe [options]
+
+  -h	Print this help
+  -s	Output the selected emoji to stdout
+  -f	Enable fuzzy-matching
+
+EOF
+}
+
+final=
+while getopts :hsf opt; do
+  case $opt in
+    (h) help; exit;;
+    (s) final=cat;;
+    (f) wofiopts="$wofiopts -M fuzzy";;
+    \?) echo >&2 $exe: Illegal option -$OPTARG;
+        help >&2; exit 1;;
+  esac
+done
+
+[ -z "$final" ] && exists wtype && final='wtype -'
+[ -z "$final" ] && exists wl-copy && final=wl-copy
+if [ -z "$final" ]; then
+  echo >&2 wtype and wl-copy not found
+  echo >&2 $exe needs either wtype or wl-copy
+  echo >&2 please install either and try again
+  exit 127
 fi
+
+sed '1,/^### DATA ###$/d' "$0" | wofi $wofiopts | cut -d ' ' -f 1 | tr -d '\n' | $final
 exit
 ### DATA ###
 😀 grinning face face smile happy joy :D grin
@@ -20,7 +57,7 @@ exit
 🙃 upside down face face flipped silly smile
 😉 winking face face happy mischievous secret ;) smile eye
 😊 smiling face with smiling eyes face smile happy flushed crush embarrassed shy joy
-😇 smiling face with halo face angel heaven halo
+😇 smiling face with halo face angel heaven halo innocent
 🥰 smiling face with hearts face love like affection valentines infatuation crush hearts adore
 😍 smiling face with heart eyes face love like affection valentines infatuation crush heart
 🤩 star struck face smile starry eyes grinning
@@ -54,8 +91,8 @@ exit
 😪 sleepy face face tired rest nap
 🤤 drooling face face
 😴 sleeping face face tired sleepy night zzz
-😷 face with medical mask face sick ill disease
-🤒 face with thermometer sick temperature thermometer cold fever
+😷 face with medical mask face sick ill disease covid
+🤒 face with thermometer sick temperature thermometer cold fever covid
 🤕 face with head bandage injured clumsy bandage hurt
 🤢 nauseated face face vomit gross green sick throw up ill
 🤮 face vomiting face sick
@@ -78,10 +115,10 @@ exit
 😯 hushed face face woo shh
 😲 astonished face face xox surprised poisoned
 😳 flushed face face blush shy flattered
-🥺 pleading face face begging mercy
+🥺 pleading face face begging mercy cry tears sad grievance
 😦 frowning face with open mouth face aw what
 😧 anguished face face stunned nervous
-😨 fearful face face scared terrified nervous oops huh
+😨 fearful face face scared terrified nervous
 😰 anxious face with sweat face nervous sweat
 😥 sad but relieved face face phew sweat nervous
 😢 crying face face tears sad depressed upset :'(
@@ -186,7 +223,7 @@ exit
 👐 open hands fingers butterfly hands open
 🤲 palms up together hands gesture cupped prayer
 🤝 handshake agreement shake
-🙏 folded hands please hope wish namaste highfive pray
+🙏 folded hands please hope wish namaste highfive pray thank you thanks appreciate
 ✍️ writing hand lower left ballpoint pen stationery write compose
 💅 nail polish beauty manicure finger fashion nail
 🤳 selfie camera phone
@@ -595,13 +632,13 @@ exit
 🕸️ spider web animal insect arachnid silk
 🦂 scorpion animal arachnid
 🦟 mosquito animal nature insect malaria
-🦠 microbe amoeba bacteria germs virus
+🦠 microbe amoeba bacteria germs virus covid
 💐 bouquet flowers nature spring
 🌸 cherry blossom nature plant spring flower
 💮 white flower japanese spring
 🏵️ rosette flower decoration military
 🌹 rose flowers valentines love spring
-🥀 wilted flower plant nature flower
+🥀 wilted flower plant nature flower rose
 🌺 hibiscus plant vegetable flowers beach
 🌻 sunflower nature plant fall
 🌼 blossom nature flowers yellow
@@ -651,51 +688,51 @@ exit
 🌰 chestnut food squirrel
 🍞 bread food wheat breakfast toast
 🥐 croissant food bread french
-🥖 baguette bread food bread french
-🥨 pretzel food bread twisted
-🥯 bagel food bread bakery schmear
-🥞 pancakes food breakfast flapjacks hotcakes
-🧇 waffle food breakfast
-🧀 cheese wedge food chadder
+🥖 baguette bread food bread french france bakery
+🥨 pretzel food bread twisted germany bakery
+🥯 bagel food bread bakery schmear jewish bakery
+🥞 pancakes food breakfast flapjacks hotcakes brunch
+🧇 waffle food breakfast brunch
+🧀 cheese wedge food chadder swiss
 🍖 meat on bone good food drumstick
 🍗 poultry leg food meat drumstick bird chicken turkey
 🥩 cut of meat food cow meat cut chop lambchop porkchop
-🥓 bacon food breakfast pork pig meat
+🥓 bacon food breakfast pork pig meat brunch
 🍔 hamburger meat fast food beef cheeseburger mcdonalds burger king
-🍟 french fries chips snack fast food
-🍕 pizza food party
-🌭 hot dog food frankfurter
-🥪 sandwich food lunch bread
+🍟 french fries chips snack fast food potato
+🍕 pizza food party italy
+🌭 hot dog food frankfurter america
+🥪 sandwich food lunch bread toast bakery
 🌮 taco food mexican
 🌯 burrito food mexican
-🥙 stuffed flatbread food flatbread stuffed gyro
-🧆 falafel food
+🥙 stuffed flatbread food flatbread stuffed gyro mediterranean
+🧆 falafel food mediterranean
 🥚 egg food chicken breakfast
-🍳 cooking food breakfast kitchen egg
-🥘 shallow pan of food food cooking casserole paella
-🍲 pot of food food meat soup
+🍳 cooking food breakfast kitchen egg skillet
+🥘 shallow pan of food food cooking casserole paella skillet
+🍲 pot of food food meat soup hot pot
 🥣 bowl with spoon food breakfast cereal oatmeal porridge
-🥗 green salad food healthy lettuce
-🍿 popcorn food movie theater films snack
+🥗 green salad food healthy lettuce vegetable
+🍿 popcorn food movie theater films snack drama
 🧈 butter food cook
 🧂 salt condiment shaker
-🥫 canned food food soup
-🍱 bento box food japanese box
-🍘 rice cracker food japanese
+🥫 canned food food soup tomatoes
+🍱 bento box food japanese box lunch
+🍘 rice cracker food japanese snack
 🍙 rice ball food japanese
-🍚 cooked rice food china asian
+🍚 cooked rice food asian
 🍛 curry rice food spicy hot indian
-🍜 steaming bowl food japanese noodle chopsticks
-🍝 spaghetti food italian noodle
-🍠 roasted sweet potato food nature
+🍜 steaming bowl food japanese noodle chopsticks ramen
+🍝 spaghetti food italian pasta noodle
+🍠 roasted sweet potato food nature plant
 🍢 oden food japanese
 🍣 sushi food fish japanese rice
 🍤 fried shrimp food animal appetizer summer
 🍥 fish cake with swirl food japan sea beach narutomaki pink swirl kamaboko surimi ramen
-🥮 moon cake food autumn
+🥮 moon cake food autumn dessert
 🍡 dango food dessert sweet japanese barbecue meat
-🥟 dumpling food empanada pierogi potsticker
-🥠 fortune cookie food prophecy
+🥟 dumpling food empanada pierogi potsticker gyoza
+🥠 fortune cookie food prophecy dessert
 🥡 takeout box food leftovers
 🦀 crab animal crustacean
 🦞 lobster animal nature bisque claws seafood
@@ -718,7 +755,7 @@ exit
 🍯 honey pot bees sweet kitchen
 🍼 baby bottle food container milk
 🥛 glass of milk beverage drink cow
-☕ hot beverage beverage caffeine latte espresso coffee
+☕ hot beverage beverage caffeine latte espresso coffee mug
 🍵 teacup without handle drink bowl breakfast green british
 🍶 sake wine drink drunk beverage japanese alcohol booze
 🍾 bottle with popping cork drink wine bottle celebration
@@ -1604,7 +1641,7 @@ exit
 🇯🇪 flag jersey je flag nation country banner jersey
 🇯🇲 flag jamaica jm flag nation country banner jamaica
 🇯🇴 flag jordan jo flag nation country banner jordan
-🇯🇵 flag japan japanese nation flag country banner japan
+🇯🇵 flag japan japanese nation flag country banner japan jp ja
 🇰🇪 flag kenya ke flag nation country banner kenya
 🇰🇬 flag kyrgyzstan kg flag nation country banner kyrgyzstan
 🇰🇭 flag cambodia kh flag nation country banner cambodia
@@ -1777,7 +1814,7 @@ exit
 🫐 blueberries fruit
 🫒 olive fruit
 🫑 bell pepper fruit plant
-🫓 flatbread flour food
+🫓 flatbread flour food bakery
 🫔 tamale food masa
 🫕 fondue cheese pot food
 🫖 teapot drink hot
@@ -1822,11 +1859,11 @@ exit
 🧔‍♀️ woman beard facial hair
 🫠 melting face hot heat
 🫢 face with open eyes and hand over mouth silence secret shock surprise
-🫣 face with peeking eye scared frightening embarrassing
+🫣 face with peeking eye scared frightening embarrassing shy
 🫡 saluting face respect salute
 🫥 dotted line face invisible lonely isolation depression
 🫤 face with diagonal mouth skeptic confuse frustrated indifferent
-🥹 face holding back tears touched gratitude
+🥹 face holding back tears touched gratitude cry
 🫱 rightwards hand palm offer
 🫲 leftwards hand palm offer
 🫳 palm down hand palm drop
