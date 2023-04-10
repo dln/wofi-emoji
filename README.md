@@ -1,3 +1,5 @@
+📢 wofi-moji is now kindly maintained by ✨[@Zeioth](https://github.com/Zeioth/)✨. Head on over to [Zeioth/wofi-emoji](https://github.com/Zeioth/wofi-emoji) for all your emoji selection needs! 🚀
+
 # wofi-emoji 🥞
 
 Simple emoji selector for Wayland using [wofi](https://cloudninja.pw/docs/wofi.html).
